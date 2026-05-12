@@ -4,10 +4,12 @@
 To develop a neural network regression model for the given dataset.
 
 ## THEORY
-Explain the problem statement
+Regression is a supervised learning technique used to predict continuous numerical values based on input data. In this problem, the goal is to develop a neural network model that learns the relationship between a numeric input and a numeric output from a dataset, and then uses this learned relationship to make predictions on new data. A neural network regression model consists of an input layer, one or more hidden layers, and an output layer. The input is processed through the network using weighted connections and activation functions like ReLU, and the final output layer produces a continuous value using a linear activation function. The model learns by adjusting its weights to minimize the difference between predicted and actual values. Before training, the data is normalized using techniques like Min-Max Scaling to improve performance. The model is trained using a loss function such as Mean Squared Error (MSE) and an optimizer like Adam. After training, the model is evaluated using test data, and its performance can be visualized using plots like the loss curve.
+
 
 ## Neural Network Model
-Include the neural network model diagram.
+<img width="1044" height="687" alt="image" src="https://github.com/user-attachments/assets/f4b067f7-7ce8-4fa6-90c3-b1795fe1df7d" />
+
 
 ## DESIGN STEPS
 ### STEP 1: 
@@ -89,7 +91,8 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
 ```
 
 ### Dataset Information
-Include screenshot of the generated data
+<img width="209" height="222" alt="image" src="https://github.com/user-attachments/assets/326ac574-6fbd-4238-a1b7-37eb28ed17a9" />
+
 
 ### OUTPUT
 
